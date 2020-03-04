@@ -1,19 +1,14 @@
-#!/bin/bash
+#!usr/bin/env bash
 
-#info_pac(){
-#read pkg 
-#[[ ! -z $pkg ]] && sudo pacman -Si $pkg
-#n1="audacious"
-#echo -e "Gostaria de instar o programa?\033[32m sim/nao\033[m"
-#read opc 
-#case $opc in
-#sim) sudo pacman -Si $n1 && sleep 3 && sudo pacman -S $n1	;;
-#nao) echo "Operação cancelada pelo usuario $USER"	;;
+# Criador: Diego cesare
+# Criado em: 02/02/2020
+# Contato: <diegocesare300491@gmail.com>
+# Lincença: GPL
+# Função: Ajudar a novos usuarios no uso do terminal, e no momento da instalação.
 
-#esac
-#}
+##################################################################### Arch-Center #####################################################################
 
-# Informar
+# Setor de informações de programas
 
 package_info(){
 
@@ -36,7 +31,7 @@ echo -e "                                                \033[1;41m \033[0ms\033
 read opc
   case $opc in
    s) exit      ;;
-    i) sh archcenter02.sh      ;;
+    i) sh archcenter      ;;
 esac
 }
 
@@ -53,13 +48,16 @@ echo -e "                                                \033[1;41m \033[0ms\033
 read opc
   case $opc in
    s) exit      ;;
-    i) sh archcenter.sh      ;;
+    i) sh archcenter	;;
 esac
 
 }
 
+# Fim do setor de informações
 
-# Pesquisar
+#######################################################################################################################################################
+
+# Inicio do setor de pesquisas
 
 ### AUR
 
@@ -85,13 +83,14 @@ echo -e "                                          \033[1;41m \033[0m s \033[1;4
 read opc
   case $opc in
    s) exit      ;;
-     i) sh archcenter02.sh      ;;
+     i) sh archcenter	;;
 esac
 }
 
 
 
 ### Repos Oficiais
+
 pes_pack(){
 
 clear
@@ -114,11 +113,15 @@ echo -e "                                          \033[1;41m \033[0m s \033[1;4
 read opc
   case $opc in
    s) exit	;;
-     i) sh archcenter02.sh	;;
+     i) sh archcenter	;;
 esac
 }
 
-# Remover pacotes
+# Fim do setor de pesquisas
+
+#####################################################################################################################################################################
+
+# inicio do setor de remoção
 
 del_package(){
 
@@ -142,12 +145,21 @@ echo -e "                                    \033[1;41m \033[0m s \033[1;41m \03
 read opc
   case $opc in
    s) exit	;;
-     i) sh archcenter02.sh	;;
+     i) sh archcenter	;;
 esac
+
 }
 
+# Fim do setor de remoção
+
+###################################################################################################################################################
+
+# Este setor faz parte do setor de remoção,mas foi excluido por traser uma etapa desnesessaria. Desmarque se achar conveniente.
+
 #idel_package(){
+
 #clear
+
 #echo -e "\033[1;46m                                                                  \033[0m"
 #echo -e "\033[1;40m                                                                  \033[0m"
 #echo -e "          VOÇE GOSTARIA REALMENTE DE DELETAR UM PROGRAMA?"
@@ -162,10 +174,15 @@ esac
 #	Nao|nao) echo -e "\033[1;34m Operação cancelade pelo usuario!\033[0m\c"	;;
 #esac
 #sleep 3
-#sh mais.sh
+#archcenter
 #}
 
+#######################################################################################################################################################
+
+# Inicio do setor ddboot
+
 ### DDboot
+
 ddboot(){
 
 clear
@@ -208,11 +225,21 @@ echo -e "\033[1;46m                                                             
         echo -e "         \033[1;33mTUDO PRONTO!!! VOÇE JA PODE USAR SEU DISPOSITIVO BOOTAVEL.            "
 echo -e "\033[1;40m                                                                                \033[0m"
 echo -e "\033[1;40m                                                                                \033[0m"
+
 }
 
+# Fim do setor ddboot
+
+#########################################################################################################################################################################
+
+# Inicio do setor de categorias da Arch Store
+
 audio(){
+
 # Visão geral
+
 clear
+
 echo -e "\033[1;46m\033[1;31mARCH STORE\033[1;41m                                                           \033[1;37mAudio e musica\033[0m"
 echo -e "$lineb"
 echo -e "$line"
@@ -308,6 +335,7 @@ read opc
 
 audio
 }
+
 # Visao geral
 
 video(){
@@ -669,6 +697,11 @@ read opc
 utilits
 }
 
+# Fim do setor de categorias da Arch Store
+
+###################################################################################################################################################
+
+# Inicio do setor da Arch Center
 
 loja(){
 
@@ -706,7 +739,7 @@ read opc
         3) produc  ;;
 	4) utilits	;;
         s) exit ;;
-	i) sh archcenter02.sh	;;
+	i) sh archcenter	;;
 
 esac
 
@@ -714,7 +747,11 @@ loja
 
 }
 
-### Variaveis
+# Fim do setor da Arch center
+
+#####################################################################################################################################################
+
+# Inicio do setor de variaveis usadas dentro po programa 
 
 lineb="\033[1;46m                                                                       \033[0m"
 liner="\033[1;47m                                                                      \033[0m"
@@ -725,7 +762,14 @@ minlinew="\033[1;37m│"
 block="\033[1;31m┌────────────────────┐"
 blockd="\033[1;37m└────────────────────┘"
 line="\033[1;34m──────────────────────────────────────────────────────────\033[0mPowerBy DCG"
-### Interface inicial do programa 
+
+# Fim do setor de variaveis
+
+######################################################################################################################################################
+
+# Inicio da interface inicial do programa 
+
+
 clear
 echo -e "\033[1;46m\033[1;31mARCH CENTER\033[1;41m                                                \033[1;37mVersion 0.04\033[0m"
  echo -e "$lineb"
@@ -757,7 +801,12 @@ echo -e " $block $block $block"
   echo -e "$liner"
  echo -e ">>|\c"
 
-### Direcionamentos
+# Fim do setor de interface inicial do programa
+
+################################################################################################################################################
+
+# Inicio das principais funções do programa
+
 read opc
   case $opc in
 1) sudo pacman -Sy  ;;
@@ -774,4 +823,8 @@ read opc
 12) yay -Syu	;;
 esac
 sleep 1
-sh archcenter02.sh
+sh archcenter
+
+# Fim das funções principais do programa
+
+
