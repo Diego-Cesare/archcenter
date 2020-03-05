@@ -697,6 +697,120 @@ read opc
 utilits
 }
 
+# Desenvolvimento
+
+dev(){
+
+clear
+
+echo -e "\033[1;46m\033[1;31mARCH STORE\033[1;41m                                                           \033[1;37mDesenvolvimento\033[0m"
+ echo -e "$lineb"
+  echo -e "$line"
+   echo -e "\033[46m                                                                                   \033[0m"
+    echo -e "\033[41m \033[0m 1 \033[41m \033[0m Accerciser       \033[42m \033[0m Navegador de acessibilidade para o ambiente GNOME  \033[1;44m\033[3;5;10m Extra \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 2 \033[41m \033[0m Acme             \033[42m \033[0m Edito para Plan9                               \033[1;43m\033[3;5;10m Community \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 3 \033[41m \033[0m Anjuta           \033[42m \033[0m Desenvolva software em um ambiente integrado       \033[1;44m\033[3;5;10m Extra \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 4 \033[41m \033[0m Arduino          \033[42m \033[0m Um (IDE) para desenvolvimento com foco em arduino  \033[1;44m \033[3;5;10mExtra \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 5 \033[41m \033[0m Bluefhish        \033[42m \033[0m Editor de desenvolvimento web                  \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 6 \033[41m \033[0m BlueGriffon      \033[42m \033[0m Desenvolvimento e paginas web                  \033[1;43m\033[3;5;10m Community \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 7 \033[41m \033[0m bPython          \033[42m \033[0m Uma interface simples para python              \033[1;43m \033[3;5;10mCommunity \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 8 \033[41m \033[0m Builder          \033[42m \033[0m IDE para o GNOME                                   \033[1;44m \033[3;5;10mExtra \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 9 \033[41m \033[0m Cervisia         \033[42m \033[0m Interface grafica para o sistema de controle CVS   \033[1;44m\033[3;5;10m Extra \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 10 \033[41m \033[0m Cmake           \033[42m \033[0m Sistema de construção de plataforma cruzada        \033[1;44m \033[3;5;10mExtra \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 11 \033[41m \033[0m Code            \033[42m \033[0m Editor de texto do Elementary OS               \033[1;43m\033[3;5;10m Community \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 12 \033[41m \033[0m Code::Blocks    \033[42m \033[0m IDE para e c,c++ e muitas outras               \033[1;43m\033[3;5;10m Community \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 13 \033[41m \033[0m Code-OSS        \033[42m \033[0m Visual Studio Code                             \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m" 
+  echo -e "\033[41m \033[0m 14 \033[41m \033[0m Console Akonadi \033[42m \033[0m Console de gerenciamento e depuração Akonadi        \033[1;44m \033[3;5;10mExtra \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 15 \033[41m \033[0m CoqIDE          \033[42m \033[0m IDE para o coq profissional assistante         \033[1;43m \033[3;5;10m Community \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 16 \033[41m \033[0m DBeaver         \033[42m \033[0m Universal database e gerenciador de SQL        \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 17 \033[41m \033[0m DevHelp         \033[42m \033[0m Ferramenta para pesquisar documentos API       \033[1;44m \033[3;5;10mExtra \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 18 \033[41m \033[0m D-Feet          \033[42m \033[0m Depure aplicativos D-bus                       \033[1;43m \033[3;5;10mCommunity \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 19 \033[41m \033[0m Diffuse         \033[42m \033[0m Mesclar e comparar arquivos de texto           \033[1;43m \033[3;5;10mCommunity \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 20 \033[41m \033[0m DistCC Monitor  \033[42m \033[0m Visualiza tarefas de compilação distribuída    \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 21 \033[41m \033[0m Eclipse         \033[42m \033[0m Desevolvimento em C++                          \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 22 \033[41m \033[0m Ghex            \033[42m \033[0m Inspecione e edite arquivos binarios               \033[1;44m \033[3;5;10mExtra \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 23 \033[41m \033[0m Eric6           \033[42m \033[0m Desenvolvimento integrado para Python          \033[1;43m\033[3;5;10m Community \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 24 \033[41m \033[0m Fluid           \033[42m \033[0m Usado para produzir FLTK código fonte          \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+    echo -e "\033[41m \033[0m 25 \033[41m \033[0m Fluid Demo      \033[42m \033[0m Demonstra os modulos QML do Fluid              \033[1;43m \033[3;5;10mCommunity \033[0m"
+   echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 26 \033[41m \033[0m Gambas3         \033[42m \033[0m IDE para linguagem Gambas                      \033[1;43m \033[3;5;10mCommunity \033[0m"
+ echo -e "\033[46m                     \033[0m"
+echo -e "\033[41m \033[0m 27 \033[41m \033[0m Geany           \033[42m \033[0m Uma IDE rapida e leve usando GTK+              \033[1;43m \033[3;5;10mCommunity \033[0m"
+ echo -e "\033[46m                     \033[0m"
+  echo -e "\033[41m \033[0m 28 \033[41m \033[0m Glade           \033[42m \033[0m Crie ou edite progetos para aplicativos GTK+       \033[1;44m \033[3;5;10mExtra \033[0m"
+   echo -e "\033[46m                                                                                   \033[0m"
+    echo ""
+   echo -e "\033[1;47m\033[1;37mSELECIONE UM NUMERO\033[1;46m                                                   \033[1;46m\033[1;31mE TECLE ENTER\033[0m"
+  echo -e "\033[1;47m                     (info) Para informaçoes sobre programs   (i) Inicio   (S) Sair\033[0m"
+ echo -e ">>>|\c"
+
+
+# Funções
+
+read opc
+
+   case $opc in 
+
+        i) loja       ;;
+        s) exit ;;
+        info) package_info      ;;
+   1) sudo pacman -S accerciser     ;;
+   2) sudo pacman -S acme     ;;
+   3) sudo pacman -S anjuta  ;;
+   4) sudo pacman -S arduino       ;;
+   5) sudo pacman -S bluefish ;;
+   6) sudo pacman -S blueGriffon    ;;
+   7) sudo pacman -S bpython      ;;
+   8) sudo pacman -S gnome-builder   ;;
+   9) sudo pacman -S cervisia      ;;
+   10) sudo pacman -S cmake     ;;
+   11) sudo pacman -S phanteon-code      ;;
+   12) sudo pacman -S codeblocks        ;;
+   13) sudo pacman -S code        ;;
+   14) sudo pacman -S akonadiconsole ;;
+   15) sudo pacman -S coqide  ;;
+   16) sudo pacman -S dbeaver       ;;
+   17) sudo pacman -S devhelp        ;;
+   18) sudo pacman -S d-feet ;;
+   19) sudo pacman -S diffuse        ;;
+   20) sudo pacman -S distcc      ;;
+   21) sudo pacman -S eclipse-cpp       ;;
+   22) sudo pacman -S ghex ;;
+   23) sudo pacman -S eric    ;;
+   24) sudo pacman -S fltk    ;;
+   25) sudo pacman -S fluid  ;;
+   26) sudo pacman -S gambas3-ide    ;;
+   27) sudo pacman -S geany    ;;
+   28) sudo pacman -S Glade;;
+   esac
+
+dev
+}
+
 # Fim do setor de categorias da Arch Store
 
 ###################################################################################################################################################
@@ -738,6 +852,7 @@ read opc
         2) video  ;;
         3) produc  ;;
 	4) utilits	;;
+        5) dev  ;;
         s) exit ;;
 	i) sh archcenter	;;
 
